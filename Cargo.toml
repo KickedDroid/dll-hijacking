@@ -1,0 +1,10 @@
+[package]
+name = "dll_hijacking"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3.9", features = ["minwindef","winuser"] }
+
+[lib]
+crate-type = ["cdylib"]
