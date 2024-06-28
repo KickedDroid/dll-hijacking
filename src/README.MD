@@ -17,3 +17,10 @@ Take cleaned up output and paste shellcode into `lib.rs` and build to DLL
 ```
 cargo build --release
 ```
+
+---
+
+TODO 
+- Less interactive
+- Msfvenom Payload generation included
+- Custom `build.rs` to copy and rename dlls. 
